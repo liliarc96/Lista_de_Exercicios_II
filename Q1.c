@@ -7,12 +7,13 @@ E por fim, caso o usuário digitar 0, o programa deve exibir mensagem de despedi
 */
 
 #include <stdio.h>
-
+//Função Menu:
 void menu(){
   printf("    ----MENU----\n\n1 - 9: Reexibir Menu;\n\n0: Terminar Execução;\n\n\nDigite uma opção do menu: ");
 }
 
 int main(void) {
+  //Criação da variável que  recebe a opção do menu e a variável que mantém a repetição:
   int opcao, repeticao = 1;
   menu();
   scanf("%d", &opcao);
