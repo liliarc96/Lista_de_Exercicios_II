@@ -20,7 +20,6 @@ void fatorial(int f){
   }
 }
 
-
 int main(void) {
   int opcao, repeticao = 1;
   int numero;
