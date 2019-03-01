@@ -13,7 +13,7 @@ int main(void) {
   fatorial = numero;
 
   if(numero > 0){
-    for(contador = 1; numero > contador-1 ;contador++){
+    for(contador = 1; numero > contador ;contador++){
         fatorial = fatorial*(numero-contador);
       }
     printf("\n!%d é igual a: %d", numero, fatorial);
