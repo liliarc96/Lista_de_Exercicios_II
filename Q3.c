@@ -20,8 +20,7 @@ void fatorial(int f){
         fatorial = fatorial*(f-contador);
       }
     printf("\n!%d é igual a: %d\n", f, fatorial);
-  }
-  else{
+  }else{
     printf("ERRO.");
   }
 }
@@ -41,20 +40,23 @@ void primo(int p){
   1.Se tiver mais de 2 divisores (valor inicial da variável cont, divisivel por 1 e ele mesmo) [cont == 2]
   2.Até 3 (para não repetir a divisão por 2) [divisor > 2]
   */
-  if(p == 1 || (p%2 == 0 && p != 2)){
+    if(p > 0){
+    if(p == 1 || (p%2 == 0 && p != 2)){
     printf("\n%d não é primo.\n", p);
-  }
-  else{
-    for(divisor = p-1 ;divisor > 2 && cont == 2;divisor--){
-      if(p%divisor == 0){
-        cont++;
+    }else{
+      for(divisor = p-1 ;divisor > 2 && cont == 2;divisor--){
+        if(p%divisor == 0){
+          cont++;
+        }
       }
-    }
     if(cont>2){
       printf("\n%d não é primo.\n",p);
     }else{
       printf("\n%d é primo.\n",p);
     }
+    }
+  }else{
+    printf("\nNúmero negativo.\n");
   }
 }
 
