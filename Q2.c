@@ -5,9 +5,9 @@ o resultado. Este programa deverá ser executado quando o usuário apertar 1 no 
 #include <stdio.h>
 //FUNÇÕES_COMEÇO:
 void menu(){
-  printf("\n    ----MENU----\n\n);
-  printf("1: Calcular Fatorial;\n\n);
-  printf("2 - 9: Reexibir Menu;\n\n);
+  printf("\n    ----MENU----\n\n");
+  printf("1: Calcular Fatorial;\n\n");
+  printf("2 - 9: Reexibir Menu;\n\n");
   printf("0: Terminar Execução;\n\n\n");
   printf("Digite uma opção do menu: ");
 }
