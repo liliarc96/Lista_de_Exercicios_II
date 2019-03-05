@@ -17,6 +17,11 @@ int main(void) {
   int opcao, repeticao = 1;
   menu();
   scanf("%d", &opcao);
+  /*
+  Qualquer número >=1 e <=9 executa o case 9, exibindo a função menu e pedindo uma opção novamente.
+  O case 0 muda o valor da variável repetição para 0, terminando o while.
+  Números menores que 0 e maiore que 9 exibem a mensagem de erro e exibem a função menu e pedindo uma opção novamente.
+  */
   while(repeticao == 1){
     switch(opcao){
       case 1:
