@@ -3,9 +3,13 @@
 o resultado. Este programa deverá ser executado quando o usuário apertar 1 no menu da primeira atividade.
 */
 #include <stdio.h>
-//FUNÇÕES:
+//FUNÇÕES_COMEÇO:
 void menu(){
-  printf("\n    ----MENU----\n\n1: Calcular Fatorial;\n\n2 - 9: Reexibir Menu;\n\n0: Terminar Execução;\n\n\nDigite uma opção do menu: ");
+  printf("\n    ----MENU----\n\n);
+  printf("1: Calcular Fatorial;\n\n);
+  printf("2 - 9: Reexibir Menu;\n\n);
+  printf("0: Terminar Execução;\n\n\n");
+  printf("Digite uma opção do menu: ");
 }
 void fatorial(int f){
   int fatorial = f, contador;
@@ -19,7 +23,7 @@ void fatorial(int f){
     printf("ERRO.");
   }
 }
-
+//FUNÇÕES_FIM:
 int main(void) {
   int opcao, repeticao = 1;
   int numero;
