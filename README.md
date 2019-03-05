@@ -3,9 +3,9 @@
 
 **1.** Crie um Menu.
 
-*O menu deverá ter opções quaisquer de 1 a 9, se o usuário digitar algum número entre 1 e 9, o programa deverá reexibir o menu.
-Caso o usuário digitar qualquer outro número, com excessão do 0, o programa deve informar que a opção desejada é inexistente.
-E por fim, caso o usuário digitar 0, o programa deve exibir mensagem de despedida e terminar sua execução.*
++ *O menu deverá ter opções quaisquer de 1 a 9, se o usuário digitar algum número entre 1 e 9, o programa deverá reexibir o menu.*
++ *Caso o usuário digitar qualquer outro número, com excessão do 0, o programa deve informar que a opção desejada é inexistente.*
++ *E por fim, caso o usuário digitar 0, o programa deve exibir mensagem de despedida e terminar sua execução.*
 
 
 **2.** Faça um programa que leia um número e retorne o fatorial deste número. Crie uma função que encontre o resultado. Este programa deverá ser executado quando o usuário apertar 1 no menu da primeira atividade.
