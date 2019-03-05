@@ -1,5 +1,7 @@
 /*
-5 - Faça um programa que leia um número de ponto flutuante A e um número inteiro B e retorne a potência de A elevado a B. Mostre o resultado em forma científica, ou 1.7e10. Este programa deverá ser executado quando o usuário apertar 4 no menu da primeira atividade.
+5 - Faça um programa que leia um número de ponto flutuante A e um número inteiro B e retorne a 
+potência de A elevado a B. Mostre o resultado em forma científica, ou 1.7e10. Este programa deverá 
+ser executado quando o usuário apertar 4 no menu da primeira atividade.
 */
 #include <stdio.h>
 #include <math.h>
