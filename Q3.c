@@ -1,7 +1,6 @@
 /*
 3 - Faça um programa que leia um número e diga se esse número é primo ou não. Crie uma função que faça esta avaliação. Este programa deverá ser executado quando o usuário apertar 2 no menu da primeira atividade.
 */
-
 #include <stdio.h>
 
 /*----------------------------FUNÇÕES----------------------------*/
@@ -31,8 +30,8 @@ void primo(int p){
   int divisor; //número usado para testar **p**
   /*
   NÃO É PRIMO SE:
-  Se o número for igual à 1 [numero == 1] **ou**
-  For par [numero%2 == 0] **e** diferente de 2 [numero != 2]
+  Se o número for igual à 1 [p == 1] **ou**
+  For par [p%2 == 0] **e** diferente de 2 [p != 2]
 
   SENÃO:
   Entra nessa categoria se for diferente de 1, não for par ou ser 2.
