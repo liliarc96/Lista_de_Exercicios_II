@@ -55,7 +55,7 @@ void primo(int p){
 void potencia(float b,int e){
   float resultado;
   resultado = pow(b,e);
-  printf("\n%.2f elevado à %d é igual a %e.\n", b, e, resultado);
+  printf("\n%.2f elevado à %d é igual a %.2e.\n", b, e, resultado);
 }
 /*----------------------------MAIN----------------------------*/
 
