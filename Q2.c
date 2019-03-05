@@ -3,7 +3,9 @@
 o resultado. Este programa deverá ser executado quando o usuário apertar 1 no menu da primeira atividade.
 */
 #include <stdio.h>
-//FUNÇÕES:
+
+/*----------------------------FUNÇÕES----------------------------*/
+
 void menu(){
   printf("\n    ----MENU----\n\n");
   printf("1: Calcular Fatorial;\n\n");
