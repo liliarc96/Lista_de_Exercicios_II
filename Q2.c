@@ -14,6 +14,8 @@ void menu(){
   printf("Digite uma opção do menu: ");
 }
 void fatorial(int f){
+  //f! = f * (f – 1) * (f – 2) * (f – 3) * (f - n)...
+  //n > f
   int fatorial = f, contador;
   if(f > 0){
     for(contador = 1; f > contador ;contador++){
