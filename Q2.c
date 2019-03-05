@@ -22,8 +22,7 @@ void fatorial(int f){
         fatorial = fatorial*(f-contador);
       }
     printf("\n!%d é igual a: %d\n", f, fatorial);
-  }
-  else{
+  }else{
     printf("ERRO.");
   }
 }
