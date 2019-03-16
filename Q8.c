@@ -75,8 +75,8 @@ void bissexto(int a){
 }
 void media(int a, int b){
   float media;
-  media = (a+b)/2;
-  printf("\nA média das notas é igual a %d!\n",media);
+  media = (a+b)/2.0;
+  printf("\nA média das notas é igual a %.2f!\n",media);
 }
 /*----------------------------MAIN----------------------------*/
 
