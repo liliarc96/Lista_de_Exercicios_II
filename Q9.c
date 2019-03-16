@@ -76,10 +76,11 @@ void bissexto(int a){
 void media(int a, int b){
   float media;
   media = (a+b)/2;
+  printf("\nA média das notas é igual a %d!\n",media);
 }
 void mediaPonderada(int a, int b, int c){
   float media;
-  media = ((a + b + (c*2))/4);
+  media = ((a + b + (c*2.0))/4.0);
   printf("\nA média final foi de %.2f",media);
   if (media >= 60.0){
     printf("\nO aluno foi aprovado! :)\n");
