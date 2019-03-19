@@ -81,7 +81,7 @@ void media(int a, int b){
 void mediaPonderada(int a, int b, int c){
   float media;
   media = ((a + b + (c*2.0))/4.0);
-  printf("\nA média final foi de %.2f",media);
+  printf("\nA média final foi de %.2f.",media);
   if (media >= 60.0){
     printf("\nO aluno foi aprovado! :)\n");
   }else{
